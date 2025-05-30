@@ -11,4 +11,4 @@ jobs:
   goodbye-job:
     runs-on: ubuntu-latest
     steps:
-      -run: echo "Goodbye"
+      - run: echo "Goodbye"
