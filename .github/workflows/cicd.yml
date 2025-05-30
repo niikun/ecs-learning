@@ -1,8 +1,9 @@
-name:Hello GitHub Actions
-on: push
+name: Hello GitHub Actions
+on: 
+  push:
 jobs:
   hello-job:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Hello"
       - run: echo "GitHub Actions"
